@@ -1,0 +1,1 @@
+## Genera la siguiente cadena de numeros enteros: 1 5 3 7 5 ... siendo "n" la variable que ingresara el usuario y determinara el tamaño de la serie numerica. ##

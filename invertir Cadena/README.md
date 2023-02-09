@@ -1,0 +1,1 @@
+## El usuario debe de ingresar una cadena de caracteres y el programa debe de mostrar la cadena invertida ##

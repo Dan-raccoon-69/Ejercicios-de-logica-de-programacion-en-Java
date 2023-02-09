@@ -1,15 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        /**
-         * Replicar la siguiente salida en consola, pidiendo n que indicara el tamaño
-         * *
-         * **
-         * ***
-         * ****
-         * *****
-         * ******
-         */
-        patron1(10);        
+        patron1(15);        
     }
 
     public static void patron1(int n){
