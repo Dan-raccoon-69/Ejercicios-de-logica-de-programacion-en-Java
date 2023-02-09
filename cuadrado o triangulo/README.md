@@ -1,0 +1,1 @@
+## Realizar un programa que calcule el area y perimetro de un cuadrilatero dada la longitud de sus 2 lados, Los valores de la longitud deben ingresarse por linea de ordenes, si es un cuadrado, solo se proporcionara la longitud de uno de los lados. ##

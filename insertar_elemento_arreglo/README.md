@@ -1,0 +1,1 @@
+## Leer 5 elementos que se introduciran ordenados de forma creciente. Estos los guardaremos en una tabla de tamaño 10. leer el numero N e insertarlo en el lugar adecuado para que la tabla continue ordenada.
