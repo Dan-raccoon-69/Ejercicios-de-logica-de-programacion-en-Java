@@ -1,7 +1,6 @@
 public class ManipulacionArray {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Array arreglo = new Array();
+        arreglo.mostrarCalculos();
     }
-
-    
 }

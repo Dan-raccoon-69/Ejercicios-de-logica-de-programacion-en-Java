@@ -1,6 +1,7 @@
 public class NumPrimo {
     public static void main(String[] args) throws Exception {
         System.out.println(isNumPrimo(2)); // true
+        System.out.println(isNumPrimo(1)); // false
         System.out.println(isNumPrimo(4)); // false
         System.out.println(isNumPrimo(17)); // true
         System.out.println(isNumPrimo(13)); // true
@@ -12,6 +13,9 @@ public class NumPrimo {
 
     public static String isNumPrimo(int num) {
         boolean isPrimo = true;
+        if(num == 1){
+            isPrimo = false;
+        }
         for (int j = 2; j < num; j++) {
             if (num % j == 0) {
                 isPrimo = false;
