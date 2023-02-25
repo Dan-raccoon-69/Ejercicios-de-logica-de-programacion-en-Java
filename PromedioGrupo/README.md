@@ -1,0 +1,1 @@
+## Cada grupo o clase esta compuesto por 5 alumnos, se pide leer las notas de primer, segundo y tercer trimestre de un grupo. Debemos mostrar al final la nota media del grupo en cada trimestre, y la media del alumno que se   encuentra en la posicion N (N es ingresado desde el teclado).

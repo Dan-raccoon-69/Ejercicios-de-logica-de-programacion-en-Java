@@ -17,14 +17,18 @@ public class RetornarIndice {
                 System.out.println("Arreglo: ");
                 mostrarArreglo(arreglo);
                 int indice = mostrarPosicion(arreglo, 14);
-                System.out.println("\nEl numero a buscar se encuenta en el indice: " + indice);
+                if(indice != -1){
+                    System.out.println("\nEl numero a buscar se encuenta en el indice: " + indice);
+                }
+                else
+                System.out.println("\nNumero no encontrado en el arreglo.");
             } else
                 System.out.println("\nDatos no ingresados crecientemente.");
         }
     }
 
     public static int mostrarPosicion(int[] array, int numeroAbuscar) {
-        int indice = 0;
+        int indice = -1;
         for (int j = 0; j < array.length; j++) {
             if (numeroAbuscar == array[j]) {
                 indice = j;
