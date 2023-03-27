@@ -1,0 +1,3 @@
+## El objetivo de esta clase es el de almacenar valores enteros que sean válidos y representen una hora cualquiera del día, los métodos de impresión son los relevantes. Si la hora es: 23:14:16 imprimeEstandar() mostrará 11:14:16 PM; por el contrario, si se invoca al método imprime24Horas() se debe mostrar 23:14:16.
+
+## Agregue el método vacío tick(), él cual incrementará en una unidad los segundos. Tenga en cuenta que al llegar al segundo 60 el contador de segundos se reiniciará y se incrementará el de minutos. El mismo efecto sucede con los minutos y las horas al llegar a 60 y 24 respectivamente. Mediante una iteración, demuestre que tick() funciona adecuadamente.
