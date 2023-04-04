@@ -5,14 +5,16 @@ public class Ejercicio_Fizz {
 
     public static void FizzBuzz() {
         for (int i = 1; i <= 100; i++) {
-            if((i % 3 != 0) && (i % 5 != 0) && (i % 15 != 0))
+            boolean divisiblebythree = (i % 3 == 0) ? true : false;
+            boolean divisiblebyfive = (i % 5 == 0) ? true : false;
+            if(!divisiblebythree && !divisiblebyfive)
             System.out.print(i + " ");
-            if ((i % 3 == 0) && (i % 15 != 0))
-                System.out.print("Fizz");
-            else if ((i % 5 == 0) && (i % 15 != 0))
-                System.out.print("Buzz");
-            else if (i % 15 == 0)
+            if (divisiblebyfive && divisiblebythree)
                 System.out.print("Fizz Buzz");
+            else if (divisiblebyfive)
+                System.out.print("Buzz");
+            else if (divisiblebythree)
+                System.out.print("Fizz");
             System.out.println();
         }
     }
