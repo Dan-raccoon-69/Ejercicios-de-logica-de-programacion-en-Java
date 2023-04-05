@@ -11,3 +11,6 @@ Cada ejercicio contiene un archivo README.md donde se da a conocer el enunciado 
 ---
 
 Cabe mencionar que los ejercicios no están ordenados del más básico al más complejo, fueron resueltos conforme se fueran encontrando.
+
+---
+Prueba.
