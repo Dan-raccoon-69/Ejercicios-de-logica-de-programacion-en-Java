@@ -5,7 +5,7 @@
 * Pascal case: HolaMundo
 * Kebab case: hola-mundo
 
-Con el lenguaje de programación de tu preferencia, realiza una función que reciba dos parámetros:
+Realiza una función que reciba dos parámetros:
 
 * Un string conformado de una o más palabras separadas solo por espacio en blanco
 * Una opción para transformar ese string en algún formato de los mencionados
