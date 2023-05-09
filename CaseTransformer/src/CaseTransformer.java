@@ -64,6 +64,7 @@ public class CaseTransformer {
         }
 
         if (aTransformar.equals("kebab")) {
+            // Kebab case: hola-mundo
             System.out.println("\nKebab case:");
             for (String string : palabras) {
                 resultado += string;
