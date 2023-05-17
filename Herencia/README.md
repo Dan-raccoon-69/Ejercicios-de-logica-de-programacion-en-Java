@@ -1,0 +1,1 @@
+## Jose tiene solo un hijo, asi que decide repartir su herencia de la siguiente manera: a su ahijada la tercera parte, a su hijo la mitad de la herencia y a un sobrino lo que queda, ¿De cuánto es la herencia de cada uno?.

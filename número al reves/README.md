@@ -1,0 +1,1 @@
+## Ingresa un número de 5 cifras y mostrarlo al reves, Por ejem 93418 deberá ser: 81439
