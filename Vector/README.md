@@ -1,0 +1,1 @@
+## Realiza un programa que permita cargar 15 numeros en un vector. Una vez cargados, se necesita que el programa cuente e informe por pantalla cuántos veces se cargó l número 3.
