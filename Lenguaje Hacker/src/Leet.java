@@ -3,6 +3,7 @@ public class Leet {
         System.out.println(transformarAlenguajeHacker("Leet"));
         System.out.println(transformarAlenguajeHacker("Hola padrino"));
         System.out.println(transformarAlenguajeHacker("Lucas"));
+        System.out.println(transformarAlenguajeHacker("Ludwing"));
     }
 
     public static String transformarAlenguajeHacker(String cadena) {
