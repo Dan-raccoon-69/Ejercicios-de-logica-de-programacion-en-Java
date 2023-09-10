@@ -4,13 +4,14 @@ public class Leet {
         String cadena2 = "Leet";
         String cadena3 = "Hola padrino";
         String cadena4 = "Ludwing";
-        
-        //Encriptador e1 = new Encriptador(cadena3);
+        /* 
+        Encriptador e1 = new Encriptador(cadena3);
         e1.transformarAlenguajeHacker();
         System.out.println("Encriptada: " + e1.transformarAlenguajeHacker());
         
         Encriptador e2 = new Encriptador(cadena3);
-        System.out.println("Desencriptada: " + e2.desencriptar("#014 |*4)121^/0"));
+        */
+        //System.out.println("Desencriptada: " + e2.desencriptar("#014 |*4)121^/0"));
         // #014 |*4)I21^/0
         // #014
     }
