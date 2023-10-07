@@ -1,0 +1,1 @@
+## Suponga que hay un camión con 10 lugares. Todos están disponibles al principio. Realice un programa que permita al usuario reservar "n" lugares indicar cuales. Al final, despliegue los lugares aun disponibles. Nota: si el usuario da un lugar no existente o apartado previamente se le notificara.
