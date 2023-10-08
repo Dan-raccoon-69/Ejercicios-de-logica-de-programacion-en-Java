@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println(cambio(5252));
+		System.out.println(cambio(3246));
     }
 
     public static String cambio(int num){

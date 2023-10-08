@@ -1,18 +1,1 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Dado un monto total en pesos, se requiere determinar la cantidad mínima de billetes de $500, billetes de $200, billetes de $100, billetes de $50, monedas de $10 y monedas de $1 que se deben entregar como cambio. El programa debe tomar el monto total y calcular la cantidad de cada tipo de billete y moneda que se necesita para dar el cambio de manera eficiente. El resultado debe mostrarse en forma de texto, especificando la cantidad de cada billete y moneda en el cambio.
