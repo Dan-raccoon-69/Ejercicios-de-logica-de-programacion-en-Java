@@ -8,11 +8,11 @@ public class App {
         String respuesta = "";
         do {
             visualizarAsientos();
-            
+
             int nLugares = Integer
-            .parseInt(JOptionPane.showInputDialog(null, "\nIngresa el numero de asientos a reservar: "));
+                    .parseInt(JOptionPane.showInputDialog(null, "\nIngresa el numero de asientos a reservar: "));
             apartarLugares(nLugares);
-            
+
             visualizarAsientos();
 
             respuesta = JOptionPane.showInputDialog(null, "Ingresa 'SI' para continuar, 'NO' para terminar.");
@@ -22,8 +22,11 @@ public class App {
 
     public static void apartarLugares(int nLugares) {
         try {
-            if (nLugares > (asientos.length - numLugaresReservados)) {
+            if ((nLugares > (asientos.length - numLugaresReservados)) && (numLugaresReservados != 10)) {
                 JOptionPane.showMessageDialog(null, "ASIENTOS FALTANTES");
+            }
+            if (numLugaresReservados == 10) {
+                JOptionPane.showMessageDialog(null, "ASIENTOS AGOTADOS");
             } else {
                 int lugares = 0;
                 for (int i = 0; i < nLugares; i++) {
