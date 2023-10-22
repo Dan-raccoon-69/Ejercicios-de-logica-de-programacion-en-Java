@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class busquedaBinary {
+public class busquedaSecuencial {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
         try (Scanner datos = new Scanner(System.in)) {
@@ -29,7 +29,7 @@ public class busquedaBinary {
 
             //mensajes
             if(buscar){
-                System.out.println("\nEl numero "+ num+ " si existe en el arreglo en la posicion: " + (i+1));
+                System.out.println("\nEl numero "+ num+ " se encuentra en la posicion: [" + (i) + "]");
             }
             else {
                 System.out.println("\nEl numero " + num + " no existe en el arreglo.");
