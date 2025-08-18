@@ -27,7 +27,7 @@ public class NumPrimo {
                 break;
             }
         }
-        return "El " + num + " es primo? " + isPrimo;
+        return "El " + num + " es primo?: " + isPrimo;
     }
 
     // Escribe un programa que se encargue de comprobar si un número es o no primo.
